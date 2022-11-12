@@ -1,38 +1,195 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+body{
+  box-sizing: border-box;
+  color: white;
+  /* overflow-x: hidden; */
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('./images/bg1.png') no-repeat fixed center center/cover;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* navbar styling */
+.navbar-bg{
+  background: #237e8c;
+}
+.h-span-1{
+  background-color: #ff0707f0;
+}
+.nav-item{
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+}
+.nav-item:hover{
+  background-color: orangered;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.nav-link{
+
+}
+
+.type-writer{
+  height: 5rem;
+}
+.intro-image-container{
+  height: 35rem;
+  object-fit: cover;
+}
+.intro-image-container>div>img{
+  width: 100%;
+}
+.intro-section{
+  font-size: 2em;
+  
+}
+.intro-text{
+  color: white;
+  font-weight: 500;
+  height: 5rem;
+  font-size: 4.375rem;
+  text-shadow: 2px 1px 0px #a67e63;
+}
+.intro-text>span{
+  color: #f2060a;
+}
+.type-writer{
+  height: 6rem;
+  text-shadow: 2px 3px 6px whitesmoke;
+}
+.btn{
+  color: white;
+  background-color: orangered;
+  border-radius: 25px;
+  
+}
+.btn:hover{
+  color: black;
+  background-color: white;
+  transform: scale(1.1,1.1);
+  box-shadow: 0px 0px 1px 1px rgb(216, 205, 205);
+}
+
+
+body{
+  position: relative;
+}
+.social-media{
+  position: fixed;
+  top: 40vh;
+  left: 0;
+  z-index: 10;
+}
+.social-media>div>a>i{
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
+  color: black;
+  background-color: white;
+}
+
+
+.linkedin:hover{
+  
+  background-color: #0077b5;
+  color: white;
+}
+.github:hover{
+  background-color: black;
+  color: white;
+}
+.instagram:hover{
+  background-color: white;
+  color: #f40280;
+}
+.twitter:hover{
+  background-color: white;
+  color: #1c96e9;
+}
+
+.project-row{
+  background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('./images/aboutme-bg.jpg') no-repeat  bottom center/cover;
+
+  box-shadow: 1px 4px 3px 3px #5f27c169;
+  border-radius: 1rem;
+}
+.image-div>img{
+  height: auto;
+  width: 100%;
+  
+}
+
+.web-info{
+  color:white;
+}
+
+.tech>div>img{
+  height: 24px;
+  width: 24px;
+  
+}
+
+.web-btn{
+  padding: 0.5rem;
+  background: linear-gradient(45deg, #0d8ca8, #ab4f57); 
+  border-radius: 0.3rem; 
+  color: white;
+  border: none;
+  margin: 1rem;
+  transition-timing-function: ease;
+  transition-property: all;
+  transition-duration: 0.6s;
+}
+.web-btn:hover{
+  background:linear-gradient(45deg, #e64b0e, #0d8ca8) ;
+}
+.active{
+  background-color: orangered;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.my-image{
+  height: auto;
+  width: 80%;
+  
 }
+.aboutme-container{
+  background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('./images/aboutme-bg.jpg') no-repeat  center center/cover;
+  box-shadow: 1px 4px 3px 3px #5f27c169;
+  color:white;
+  
+  
+}
+.profile-row{
+  height: 48rem;
+  
+  
+}
+.aboutme-heading{
+  text-shadow: 1px 1px 3px whitesmoke;
+}
+.profile-name-heading>span{
+  color: #f2060a;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.profile-tech{
+  
+}
+.social>div>a>i{
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
+  color: white;
+  /* background-color: white; */
 }
