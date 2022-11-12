@@ -20,9 +20,7 @@ body{
 }
 
 /* navbar styling */
-.navbar-bg{
-  background: #237e8c;
-}
+
 .h-span-1{
   background-color: #ff0707f0;
 }
@@ -85,7 +83,7 @@ body{
 }
 .social-media{
   position: fixed;
-  top: 40vh;
+  top: 35vh;
   left: 0;
   z-index: 10;
 }

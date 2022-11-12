@@ -1,7 +1,6 @@
 import React from 'react';
 import shophub from '../images/shophub.png'
 import python from '../images/tech/icons8-python-48.png'
-import django from '../images/tech/icons8-django-48.png'
 import js from '../images/tech/icons8-javascript-48.png'
 import jq from '../images/tech/icons8-jquery-48.png'
 import b5 from '../images/tech/icons8-bootstrap-48.png'
@@ -19,7 +18,7 @@ const Projects = () => {
                  </div>
              </div>
              
-             <div className="row project-row justify-content-center mb-md-5 mb-3" data-aos="fade-left" data-aos-duration="4000">
+             <div className="row project-row justify-content-center mb-md-5 mb-3" >
                  <div className="col-md-4 col-12 image-div align-self-md-center"><a href="http://myshophub.herokuapp.com/"><img src={shophub} className='img-fluid' alt="mywebsiteimage" /></a></div>
                  <div className="col-md-8  col-12 web-info">
                     <div className="row title mt-5">
