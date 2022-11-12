@@ -10,8 +10,8 @@ const Social = () => {
         <>
         <div className='social-media '>
             <div><a href=""><i className="fa-brands linkedin fa-linkedin-in fa-2x p-2 w-100"></i></a></div>
-            <div><a href=""><i className='fa-brands github fa-github fa-2x p-2 w-100'></i></a></div>
-            <div><a href=""><i className='fa-brands instagram fa-instagram fa-2x p-2 w-100'></i></a></div>
+            <div><a href="https://github.com/yogichoudhari"><i className='fa-brands github fa-github fa-2x p-2 w-100'></i></a></div>
+            <div><a href="https://www.instagram.com/its.yogesh_choudhari/"><i className='fa-brands instagram fa-instagram fa-2x p-2 w-100'></i></a></div>
             <div><a href=""><i className='fa-brands twitter fa-twitter fa-2x p-2 w-100'></i></a></div>
         </div>
             

@@ -20,7 +20,7 @@ const Projects = () => {
              </div>
              
              <div className="row project-row justify-content-center mb-md-5 mb-3" data-aos="fade-left" data-aos-duration="4000">
-                 <div className="col-md-4 col-12 image-div align-self-md-center"><img src={shophub} className='img-fluid' alt="mywebsiteimage" /></div>
+                 <div className="col-md-4 col-12 image-div align-self-md-center"><a href="http://myshophub.herokuapp.com/"><img src={shophub} className='img-fluid' alt="mywebsiteimage" /></a></div>
                  <div className="col-md-8  col-12 web-info">
                     <div className="row title mt-5">
                        <div className="col"><span className='h6'>Website Name</span> - myshophub.herokuapp.com</div>
@@ -35,7 +35,7 @@ const Projects = () => {
                           User Authentication while Signup using email verification , Change Password , Reset Password using email,Product search bar , Category wise product filteration,Cart.. in cart i used Ajax for dynamically changing data without refreshing the page</p>
                     </div>
                     <div className="row justify-content-end ">
-                            <button className=' web-btn w-25'>Click to visit</button>
+                    <a href="http://myshophub.herokuapp.com/"><button className=' web-btn w-25'>Click to visit</button></a>
                     </div>
                  </div>
              </div>

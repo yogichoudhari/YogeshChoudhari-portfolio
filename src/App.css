@@ -177,10 +177,7 @@ body{
 .aboutme-heading{
   text-shadow: 1px 1px 3px whitesmoke;
 }
-.profile-name-heading>span{
-  color: #f2060a;
 
-}
 
 .social>div>a>i{
   transition-property: all;

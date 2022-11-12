@@ -8,7 +8,7 @@ import b5 from '../images/tech/icons8-bootstrap-48.png'
 import post from '../images/tech/icons8-postgresql-48.png'
 import html from '../images/tech/icons8-html-5-48.png'
 import css from '../images/tech/icons8-css3-48.png'
-import myimage from '../images/myimage1.png'
+import myimage from '../images/myimage2.png'
 const AboutMe = () => {
     return (
         <>

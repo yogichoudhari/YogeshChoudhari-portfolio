@@ -27,7 +27,7 @@ const Home = () => {
                                 />
                                 </div>
                                 <div className="">
-                                <button className="btn">Download CV </button>
+                                 <a href="https://docs.google.com/document/d/e/2PACX-1vS5V1grajMdQBJuM_2efkxzG3qy2GRi_o3DHOj2gWjEDoMRX-h46JIhUHbozXmqxw/pub"><button className="btn">Download CV </button></a> 
                             </div>
                             </div>
                             
