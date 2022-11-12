@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/YogeshChoudhari-portfolio/static/css/main.f644ff54.css",
-    "main.js": "/YogeshChoudhari-portfolio/static/js/main.22cfb07e.js",
-    "static/media/myimage1.png": "/YogeshChoudhari-portfolio/static/media/myimage1.bcd0e5c9998410f6b46e.png",
-    "static/media/shophub.png": "/YogeshChoudhari-portfolio/static/media/shophub.48e3e1df8d0f2cedd1a7.png",
+    "main.css": "/YogeshChoudhari-portfolio/static/css/main.265401ab.css",
+    "main.js": "/YogeshChoudhari-portfolio/static/js/main.7b0b4647.js",
+    "static/media/myimage2.png": "/YogeshChoudhari-portfolio/static/media/myimage2.af4915079bc66a71b51a.png",
     "static/media/bg1.png": "/YogeshChoudhari-portfolio/static/media/bg1.31b32701149f43563830.png",
     "static/media/dev_image.png": "/YogeshChoudhari-portfolio/static/media/dev_image.9faa3362e2aba5412d79.png",
+    "static/media/shophub.png": "/YogeshChoudhari-portfolio/static/media/shophub.8047dea08bebaa1e6328.png",
     "static/media/aboutme-bg.jpg": "/YogeshChoudhari-portfolio/static/media/aboutme-bg.b4a17c9e4ceb1dafae79.jpg",
     "index.html": "/YogeshChoudhari-portfolio/index.html",
-    "main.f644ff54.css.map": "/YogeshChoudhari-portfolio/static/css/main.f644ff54.css.map",
-    "main.22cfb07e.js.map": "/YogeshChoudhari-portfolio/static/js/main.22cfb07e.js.map"
+    "main.265401ab.css.map": "/YogeshChoudhari-portfolio/static/css/main.265401ab.css.map",
+    "main.7b0b4647.js.map": "/YogeshChoudhari-portfolio/static/js/main.7b0b4647.js.map"
   },
   "entrypoints": [
-    "static/css/main.f644ff54.css",
-    "static/js/main.22cfb07e.js"
+    "static/css/main.265401ab.css",
+    "static/js/main.7b0b4647.js"
   ]
 }
