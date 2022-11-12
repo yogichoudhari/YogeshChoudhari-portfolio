@@ -8,7 +8,9 @@
   box-sizing: border-box;
   
 }
-
+html{
+  scroll-behavior: smooth;
+}
 
 body{
   box-sizing: border-box;
@@ -16,7 +18,7 @@ body{
   /* overflow-x: hidden; */
   font-family: 'Roboto', sans-serif;
   background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('./images/bg1.png') no-repeat fixed center center/cover;
-  
+  min-height: 100vh;
 }
 
 /* navbar styling */

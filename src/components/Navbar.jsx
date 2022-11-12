@@ -14,9 +14,7 @@ const NavBar = () => {
             <div className="container-fluid ">
               <p className="navbar-brand text-light fs-3 heading" ><span className='p-2 h-span-1 '>Web</span><span>Dev</span></p>
               <ul className="navbar-nav d-flex flex-row  ms-auto mb-2 mb-lg-0">
-                <li className="nav-item p-1 ">
-                  <a className="nav-link text-light " href='#aboutme' aria-current="page" ><span className='links' > <i className='fa fa-home'></i> Home</span></a>
-                </li>
+
                 <li className="nav-item me-1 p-1 ">
                   <a className="nav-link text-light" href="#project"> <span className='links' > <i className='fa fa-setting'></i> Projects</span></a>
                 </li>
