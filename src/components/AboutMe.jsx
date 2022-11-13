@@ -17,27 +17,31 @@ const AboutMe = () => {
         </div>
           <div className="container aboutme-container mt-5">
                <div className="row profile-row text-center justify-content-center">
-                  <div className="col-md-5 mt-5 align-self-md-center text-center">
+                  <div className="col-md-5 mt-5 my-image-container align-self-md-center text-center">
                       <img src={myimage} className='my-image' alt="" />
-                      <div className='social mt-3 d-flex justify-content-center'>
+                       <div className="overlay">
+                       <div className="text">
+                       <div className='social mt-3 d-flex justify-content-center'>
             <div><a href=""><i className="fa-brands linkedin fa-linkedin-in fa-2x p-2 w-100"></i></a></div>
             <div><a href=""><i className='fa-brands github fa-github fa-2x p-2 w-100'></i></a></div>
             <div><a href=""><i className='fa-brands instagram fa-instagram fa-2x p-2 w-100'></i></a></div>
             <div><a href=""><i className='fa-brands twitter fa-twitter fa-2x p-2 w-100'></i></a></div>
         </div>
+                       </div>
+                       </div>
                   </div>
                   <div className="col-md-5 align-self-md-center ">
-                    <div className="row mt-5 ">
-                       <div className="col h1 profile-name-heading">Hello ,<span>I'M</span> <span >Yogesh </span>Choudhari</div>
+                    <div className="row mt-5 mb-0 mb-md-0">
+                       <div className="col  profile-name-heading"><h1>Hey There , I'm Yogesh Choudhari</h1></div>
                     </div>
-                    <div className="row">
-                       <div className="col h4"><span className=''>A</span> Full Stack Python Web Developer</div>
+                    <div className="row mb-3 mb-md-0">
+                       <div className="col h4 sub-heading ">A Full Stack Python Web Developer</div>
                     </div>
                     
-                    <div className="row">
+                    <div className="row mb-3 mb-md-0">
                         <p><span className='h6'></span>I have Experince In Web development of 1 Year. I can both design and develope Front-end and Back-end</p>
                     </div>
-                    <div className='row '>
+                    <div className='row mb-3 mb-md-0 '>
                          <div className="col"><span className='h6'></span>  <span className='profile-tech'><img src={html} alt="" /><img src={css} alt="" />  <img src={python} alt="" /><img src={js} alt="" /> <img src={react} alt="" /> 
                          <img src={jq} alt="" /><img src={b5} alt="" /> <img src={post} alt="" /><img src={django} alt="" /></span>
                          </div>
