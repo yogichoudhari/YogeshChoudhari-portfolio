@@ -127,11 +127,17 @@ margin: 0 auto;
   width: 22rem;
   
 }
-.image-div>img{
+.image-div>a>img{
   height: auto;
   width: 100%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
   
   
+}
+.image-div>a>img:hover{
+   transform: scale(1.1,1.1);
 }
 /* .my-image-container{
   position: relative;
@@ -243,3 +249,8 @@ margin: 0 auto;
     text-align: center;
   }
 } 
+
+.headline{
+  border-bottom:2px solid #e64b0e;
+  
+}

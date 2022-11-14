@@ -13,7 +13,7 @@ const AboutMe = () => {
     return (
         <>
         <div id='about' className="d-flex text-center ">
-                           <div className="col aboutme-heading h1 mt-5">About Me</div>
+                           <div className="col aboutme-heading  h1 mt-5"><span className='headline'>About Me</span></div>
         </div>
           <div className="container aboutme-container mt-5">
                <div className="row profile-row text-center justify-content-center">
