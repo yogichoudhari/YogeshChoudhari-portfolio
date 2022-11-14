@@ -217,7 +217,7 @@ margin: 0 auto;
   
   
 }
-.aboutme-heading{
+.aboutme-heading , .headline{
   text-shadow: 1px 1px 3px whitesmoke;
 }
 
