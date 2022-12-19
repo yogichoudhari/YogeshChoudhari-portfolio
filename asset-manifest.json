@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/YogeshChoudhari-portfolio/static/css/main.255da322.css",
-    "main.js": "/YogeshChoudhari-portfolio/static/js/main.38e4860d.js",
+    "main.js": "/YogeshChoudhari-portfolio/static/js/main.777c9437.js",
     "static/media/myimage2.png": "/YogeshChoudhari-portfolio/static/media/myimage2.af4915079bc66a71b51a.png",
     "static/media/todo.png": "/YogeshChoudhari-portfolio/static/media/todo.f710be52700028d5b254.png",
     "static/media/bg1.png": "/YogeshChoudhari-portfolio/static/media/bg1.31b32701149f43563830.png",
@@ -11,10 +11,10 @@
     "static/media/aboutme-bg.jpg": "/YogeshChoudhari-portfolio/static/media/aboutme-bg.b4a17c9e4ceb1dafae79.jpg",
     "index.html": "/YogeshChoudhari-portfolio/index.html",
     "main.255da322.css.map": "/YogeshChoudhari-portfolio/static/css/main.255da322.css.map",
-    "main.38e4860d.js.map": "/YogeshChoudhari-portfolio/static/js/main.38e4860d.js.map"
+    "main.777c9437.js.map": "/YogeshChoudhari-portfolio/static/js/main.777c9437.js.map"
   },
   "entrypoints": [
     "static/css/main.255da322.css",
-    "static/js/main.38e4860d.js"
+    "static/js/main.777c9437.js"
   ]
 }
